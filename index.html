@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/estilos/estilos.css">
+    <title>Javascript</title>
+</head>
+<body>
+    <main class="main">
+        <section class="principal">
+            <div class="boxlaptop">
+                <img src="./assets/img/amd.png" alt="laptop" class="laptop">
+            </div>
+            
+            <div class="namelaptop">
+                <h4>Laptop Gamer AMD</h4>
+                <div>
+                    <input type="number" id="amount" placeholder="Cantidad">
+                </div>
+
+                <div>
+                    <input type="text" id="color" placeholder="Color">
+                </div>
+            </div>
+
+            <p>Precio $<span id="price">400000</span></p>
+
+        
+            <button type="button" onclick="Calcular()">
+                Calcular Total
+            </button>    
+                
+        </section>
+        <article class="result">
+            <p>Total: $<span id="totalPrice">0</span></p>
+            <p>Cantidad:<span id="totalAmount">0</span></p>
+            <div class="colorInput">
+                <p>Color</p>
+                <div id="colorCircle">
+                </div>
+            </div>
+        </article>
+    <script src="./assets/js/index.js"></script>
+    </main>
+</body>
+</html>
